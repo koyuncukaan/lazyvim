@@ -28,4 +28,41 @@ return {
       },
     },
   },
+  {
+    "williamboman/mason.nvim",
+    opts = {
+      ensure_installed = {
+        "eslint-lsp",
+        "gopls",
+        "json-lsp",
+        "lua-language-server",
+        "typescript-language-server",
+        "prettier",
+        "prettierd",
+        "shfmt",
+        "stylua",
+      },
+    },
+  },
+  {
+    "nvim-treesitter/nvim-treesitter",
+    opts = {
+      ensure_installed = {
+        "bash",
+        "html",
+        "javascript",
+        "json",
+        "lua",
+        "markdown",
+        "markdown_inline",
+        "regex",
+        "tsx",
+        "typescript",
+        "vim",
+        "yaml",
+        "diff",
+        "go",
+      },
+    },
+  },
 }
